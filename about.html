@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Recipes from a Fridge helps you cook delicious food using the ingredients you already have." name="description"/>
+  <meta content="#faf8f5" name="theme-color"/>
+  <title>
+   About &amp; Contact | Recipes from a Fridge
+  </title>
+  <script>
+    let theme = localStorage.getItem("fridge-theme");
+
+    if (theme === '"dark"') {
+      theme = "dark";
+    } else {
+      theme = "light";
+    }
+
+    document.documentElement.setAttribute("data-theme", theme);
+  </script>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/animations.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to content
+  </a>
+  <header class="site-header">
+   <div class="container header-inner d-flex align-items-center justify-content-between">
+    <a aria-label="Recipes from a Fridge home" class="brand" href="index.html">
+     <span aria-hidden="true" class="brand-icon">
+      F
+     </span>
+     <span>
+      fridge
+      <span style="color:var(--accent)">
+       .
+      </span>
+      recipes
+     </span>
+    </a>
+    <nav aria-label="Main navigation" class="desktop-nav">
+     <a href="index.html">
+      Home
+     </a>
+     <a href="recipes.html">
+      All recipes
+     </a>
+     <a aria-current="page" href="about.html">
+      About &amp; contact
+     </a>
+    </nav>
+    <div class="header-actions d-flex align-items-center gap-2">
+     <button aria-label="Toggle color theme" class="icon-btn" id="theme-toggle" type="button">
+      Dark
+     </button>
+     <button aria-controls="mobile-nav" aria-expanded="false" aria-label="Toggle navigation" class="icon-btn menu-toggle" id="menu-toggle" type="button">
+      <span class="hamburger">
+      </span>
+     </button>
+    </div>
+   </div>
+   <nav aria-label="Mobile navigation" class="mobile-nav" id="mobile-nav" style="display:none">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="recipes.html">
+     All recipes
+    </a>
+    <a aria-current="page" href="about.html">
+     About &amp; contact
+    </a>
+   </nav>
+  </header>
+  <main id="main">
+   <section class="page-heading">
+    <div class="container reveal">
+     <p class="eyebrow">
+      About
+     </p>
+     <h1>
+      Recipes from
+      <span style="color:var(--accent)">
+       your fridge.
+      </span>
+     </h1>
+     <p>
+      This site helps you find recipes based on the ingredients you have.
+     </p>
+    </div>
+   </section>
+   <section class="section" style="padding-top:25px">
+    <div class="container about-layout row g-4 align-items-start">
+     <article class="about-card reveal reveal--slide col-12 col-lg-6">
+      <p class="eyebrow">
+       Our idea
+      </p>
+      <h2>
+       About the
+       <br/>
+       project
+      </h2>
+      <p>
+       This project lets you select ingredients and find recipes that use them.
+      </p>
+      <p>
+       Choose ingredients, open recipes and save favorites.
+      </p>
+      <ul class="feature-list">
+       <li>
+        &checkmark; Ingredient-based matching
+       </li>
+       <li>
+        &checkmark; Simple recipes and clear instructions
+       </li>
+       <li>
+        &checkmark; Search, filters and favorites
+       </li>
+       <li>
+        &checkmark; Accessible light and dark themes
+       </li>
+      </ul>
+      <p style="margin-top:20px">
+       Built with HTML, CSS, Bootstrap, JavaScript, jQuery and JSON.
+      </p>
+     </article>
+     <section aria-labelledby="contact-heading" class="contact-card reveal col-12 col-lg-6">
+      <p class="eyebrow">
+       Contact
+      </p>
+      <h2 id="contact-heading">
+       Contact us
+      </h2>
+      <p class="muted" style="margin-top:14px">
+       Fill out the form to download an email draft. Open the draft in your email app, add a recipient and send it yourself. This website does not send messages automatically.
+      </p>
+      <form id="contact-form" novalidate="">
+       <div class="form-group">
+        <label for="contact-name">
+         Your name
+        </label>
+        <input aria-describedby="name-error" autocomplete="name" class="field form-control" id="contact-name" name="name" placeholder="Jane Smith" type="text"/>
+        <p class="form-error" id="name-error" role="alert">
+        </p>
+       </div>
+       <div class="form-group">
+        <label for="contact-email">
+         Email address
+        </label>
+        <input aria-describedby="email-error" autocomplete="email" class="field form-control" id="contact-email" name="email" placeholder="jane@example.com" type="email"/>
+        <p class="form-error" id="email-error" role="alert">
+        </p>
+       </div>
+       <div class="form-group">
+        <label for="contact-message">
+         Your message
+        </label>
+        <textarea aria-describedby="message-error" class="field form-control" id="contact-message" name="message" placeholder="Tell us what's on your mind..."></textarea>
+        <p class="form-error" id="message-error" role="alert">
+        </p>
+       </div>
+       <button class="button" type="submit">
+        Prepare email draft
+       </button>
+       <p aria-live="polite" class="form-success hidden" id="form-success" role="status">
+       </p>
+      </form>
+     </section>
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <div class="container footer-inner">
+    <span>
+     &copy;
+     <span id="year">
+     </span>
+     Recipes from a Fridge
+    </span>
+    <a href="about.html">
+     Contact
+    </a>
+   </div>
+  </footer>
+  <button aria-label="Back to top" class="icon-btn back-to-top" id="back-to-top" type="button">
+   &uarr;
+  </button>
+  <div aria-atomic="false" aria-live="polite" class="toast-region" id="toast-region">
+  </div>
+  <div aria-hidden="true" class="modal-root" id="recipe-modal" role="presentation">
+   <section aria-labelledby="modal-title" aria-modal="true" class="modal-dialog" role="dialog" tabindex="-1">
+    <button aria-label="Close recipe" class="icon-btn modal-close" id="modal-close" type="button">
+     &times;
+    </button>
+    <img alt="Recipe photograph" class="modal-image" id="modal-image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="/>
+    <div class="modal-content">
+     <h2 id="modal-title">
+     </h2>
+     <div class="modal-meta">
+      <span id="modal-time">
+      </span>
+      <span id="modal-difficulty">
+      </span>
+      <span id="modal-calories">
+      </span>
+     </div>
+     <div class="modal-actions">
+      <span style="font-weight:700">
+       Servings
+      </span>
+      <div class="servings-control">
+       <button aria-label="Decrease servings" class="icon-btn" id="servings-decrease" type="button">
+        &minus;
+       </button>
+       <strong aria-live="polite" id="servings-count">
+       </strong>
+       <button aria-label="Increase servings" class="icon-btn" id="servings-increase" type="button">
+        +
+       </button>
+      </div>
+      <button class="button button-outline button-small" id="copy-shopping-list" type="button">
+       Copy shopping list
+      </button>
+     </div>
+     <div class="modal-cols row g-4">
+      <div class="col-12 col-md-6">
+       <h3>
+        Ingredients
+       </h3>
+       <ul class="ingredient-checklist" id="modal-ingredients">
+       </ul>
+      </div>
+      <div class="col-12 col-md-6">
+       <h3>
+        Instructions
+       </h3>
+       <ol class="steps-list" id="modal-steps">
+       </ol>
+      </div>
+     </div>
+    </div>
+   </section>
+  </div>
+  <script src="js/jquery.min.js">
+  </script>
+  <script defer="" src="js/main.js">
+  </script>
+  <script defer="" src="js/animations.js">
+  </script>
+  <script defer="" src="js/modal.js">
+  </script>
+  <script defer="" src="js/carousel.js">
+  </script>
+  <script defer="" src="js/recipes.js">
+  </script>
+ </body>
+</html>

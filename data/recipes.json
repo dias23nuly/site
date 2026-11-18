@@ -1,0 +1,1033 @@
+[
+  {
+    "id": 1,
+    "title": "Tomato Omelette",
+    "image": "assets/images/recipes/tomato-omelette.jpg",
+    "category": "Breakfast",
+    "time": 12,
+    "difficulty": "Easy",
+    "calories": 290,
+    "servings": 2,
+    "ingredients": [
+      "eggs",
+      "tomato",
+      "butter",
+      "milk",
+      "salt",
+      "pepper"
+    ],
+    "quantities": {
+      "eggs": {
+        "amount": 3,
+        "unit": "pcs"
+      },
+      "tomato": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "butter": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "milk": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "salt": {
+        "amount": 1,
+        "unit": "pinch"
+      },
+      "pepper": {
+        "amount": 1,
+        "unit": "pinch"
+      }
+    },
+    "steps": [
+      "Whisk eggs with milk, salt and pepper.",
+      "Dice the tomato and warm butter in a nonstick pan.",
+      "Pour in the eggs, scatter tomato on top and cook until set."
+    ],
+    "tags": [
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Creamy Garlic Pasta",
+    "image": "assets/images/recipes/creamy-garlic-pasta.jpg",
+    "category": "Dinner",
+    "time": 18,
+    "difficulty": "Easy",
+    "calories": 480,
+    "servings": 2,
+    "ingredients": [
+      "pasta",
+      "milk",
+      "cheese",
+      "garlic",
+      "butter",
+      "salt"
+    ],
+    "quantities": {
+      "pasta": {
+        "amount": 200,
+        "unit": "g"
+      },
+      "milk": {
+        "amount": 150,
+        "unit": "ml"
+      },
+      "cheese": {
+        "amount": 60,
+        "unit": "g"
+      },
+      "garlic": {
+        "amount": 2,
+        "unit": "cloves"
+      },
+      "butter": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "salt": {
+        "amount": 1,
+        "unit": "pinch"
+      }
+    },
+    "steps": [
+      "Boil pasta in salted water until tender.",
+      "Melt butter and gently cook minced garlic.",
+      "Stir in milk and cheese, then toss with drained pasta."
+    ],
+    "tags": [
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Crunchy Garden Salad",
+    "image": "assets/images/recipes/crunchy-garden-salad.jpg",
+    "category": "Lunch",
+    "time": 10,
+    "difficulty": "Easy",
+    "calories": 180,
+    "servings": 2,
+    "ingredients": [
+      "cucumber",
+      "tomato",
+      "carrot",
+      "lettuce",
+      "oil",
+      "salt"
+    ],
+    "quantities": {
+      "cucumber": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "tomato": {
+        "amount": 2,
+        "unit": "pcs"
+      },
+      "carrot": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "lettuce": {
+        "amount": 4,
+        "unit": "leaves"
+      },
+      "oil": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "salt": {
+        "amount": 1,
+        "unit": "pinch"
+      }
+    },
+    "steps": [
+      "Wash and slice all the vegetables.",
+      "Toss with oil and a pinch of salt.",
+      "Serve immediately for the freshest crunch."
+    ],
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Chicken Rice Bowl",
+    "image": "assets/images/recipes/chicken-rice-bowl.jpg",
+    "category": "Lunch",
+    "time": 25,
+    "difficulty": "Medium",
+    "calories": 520,
+    "servings": 2,
+    "ingredients": [
+      "chicken",
+      "rice",
+      "carrot",
+      "onion",
+      "oil",
+      "pepper"
+    ],
+    "quantities": {
+      "chicken": {
+        "amount": 250,
+        "unit": "g"
+      },
+      "rice": {
+        "amount": 150,
+        "unit": "g"
+      },
+      "carrot": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "onion": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "oil": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "pepper": {
+        "amount": 1,
+        "unit": "pinch"
+      }
+    },
+    "steps": [
+      "Cook the rice according to package instructions.",
+      "Sauté diced onion, carrot and chicken until cooked through.",
+      "Season and serve the chicken mixture over rice."
+    ],
+    "tags": [
+      "high-protein"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Fluffy Breakfast Pancakes",
+    "image": "assets/images/recipes/fluffy-breakfast-pancakes.jpg",
+    "category": "Breakfast",
+    "time": 20,
+    "difficulty": "Easy",
+    "calories": 370,
+    "servings": 3,
+    "ingredients": [
+      "flour",
+      "milk",
+      "eggs",
+      "sugar",
+      "butter",
+      "baking powder"
+    ],
+    "quantities": {
+      "flour": {
+        "amount": 180,
+        "unit": "g"
+      },
+      "milk": {
+        "amount": 200,
+        "unit": "ml"
+      },
+      "eggs": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "sugar": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "butter": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "baking powder": {
+        "amount": 2,
+        "unit": "tsp"
+      }
+    },
+    "steps": [
+      "Mix flour, sugar and baking powder in a bowl.",
+      "Whisk in milk and egg until just combined.",
+      "Cook small pancakes in a buttered skillet until golden on both sides."
+    ],
+    "tags": [
+      "vegetarian",
+      "sweet"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Cozy Vegetable Soup",
+    "image": "assets/images/recipes/cozy-vegetable-soup.jpg",
+    "category": "Dinner",
+    "time": 30,
+    "difficulty": "Easy",
+    "calories": 210,
+    "servings": 4,
+    "ingredients": [
+      "potato",
+      "carrot",
+      "onion",
+      "water",
+      "oil",
+      "salt"
+    ],
+    "quantities": {
+      "potato": {
+        "amount": 2,
+        "unit": "pcs"
+      },
+      "carrot": {
+        "amount": 2,
+        "unit": "pcs"
+      },
+      "onion": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "water": {
+        "amount": 800,
+        "unit": "ml"
+      },
+      "oil": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "salt": {
+        "amount": 1,
+        "unit": "pinch"
+      }
+    },
+    "steps": [
+      "Dice potatoes, carrots and onion.",
+      "Soften the onion in oil, then add the other vegetables and water.",
+      "Simmer until tender and season to taste."
+    ],
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cheese & Tomato Sandwich",
+    "image": "assets/images/recipes/cheese-tomato-sandwich.jpg",
+    "category": "Snack",
+    "time": 8,
+    "difficulty": "Easy",
+    "calories": 310,
+    "servings": 1,
+    "ingredients": [
+      "bread",
+      "cheese",
+      "tomato",
+      "butter"
+    ],
+    "quantities": {
+      "bread": {
+        "amount": 2,
+        "unit": "slices"
+      },
+      "cheese": {
+        "amount": 40,
+        "unit": "g"
+      },
+      "tomato": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "butter": {
+        "amount": 1,
+        "unit": "tsp"
+      }
+    },
+    "steps": [
+      "Butter one side of each bread slice.",
+      "Layer cheese and sliced tomato between the slices.",
+      "Toast in a pan until the cheese melts."
+    ],
+    "tags": [
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Lemon Chicken Skillet",
+    "image": "assets/images/recipes/lemon-chicken-skillet.jpg",
+    "category": "Dinner",
+    "time": 28,
+    "difficulty": "Medium",
+    "calories": 430,
+    "servings": 2,
+    "ingredients": [
+      "chicken",
+      "lemon",
+      "garlic",
+      "butter",
+      "oil",
+      "salt",
+      "pepper"
+    ],
+    "quantities": {
+      "chicken": {
+        "amount": 300,
+        "unit": "g"
+      },
+      "lemon": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "garlic": {
+        "amount": 2,
+        "unit": "cloves"
+      },
+      "butter": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "oil": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "salt": {
+        "amount": 1,
+        "unit": "pinch"
+      },
+      "pepper": {
+        "amount": 1,
+        "unit": "pinch"
+      }
+    },
+    "steps": [
+      "Season chicken and sear in oil until browned.",
+      "Add minced garlic, butter and lemon juice.",
+      "Cook until chicken reaches a safe internal temperature."
+    ],
+    "tags": [
+      "high-protein"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Crispy Skillet Potatoes",
+    "image": "assets/images/recipes/crispy-skillet-potatoes.jpg",
+    "category": "Snack",
+    "time": 22,
+    "difficulty": "Easy",
+    "calories": 260,
+    "servings": 2,
+    "ingredients": [
+      "potato",
+      "onion",
+      "oil",
+      "salt",
+      "pepper"
+    ],
+    "quantities": {
+      "potato": {
+        "amount": 3,
+        "unit": "pcs"
+      },
+      "onion": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "oil": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "salt": {
+        "amount": 1,
+        "unit": "pinch"
+      },
+      "pepper": {
+        "amount": 1,
+        "unit": "pinch"
+      }
+    },
+    "steps": [
+      "Cube potatoes into even pieces.",
+      "Cook in a covered skillet with a splash of water until nearly tender.",
+      "Add oil and onion; fry uncovered until crisp and golden."
+    ],
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Berry Yogurt Smoothie",
+    "image": "assets/images/recipes/berry-yogurt-smoothie.jpg",
+    "category": "Breakfast",
+    "time": 5,
+    "difficulty": "Easy",
+    "calories": 240,
+    "servings": 1,
+    "ingredients": [
+      "yogurt",
+      "banana",
+      "berries",
+      "milk"
+    ],
+    "quantities": {
+      "yogurt": {
+        "amount": 180,
+        "unit": "g"
+      },
+      "banana": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "berries": {
+        "amount": 100,
+        "unit": "g"
+      },
+      "milk": {
+        "amount": 100,
+        "unit": "ml"
+      }
+    },
+    "steps": [
+      "Add yogurt, banana, berries and milk to a blender.",
+      "Blend until smooth, adding a splash of milk if needed.",
+      "Pour into a glass and enjoy cold."
+    ],
+    "tags": [
+      "vegetarian",
+      "quick",
+      "sweet"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Chocolate Chip Cookies",
+    "image": "assets/images/recipes/chocolate-chip-cookies.jpg",
+    "category": "Dessert",
+    "time": 35,
+    "difficulty": "Medium",
+    "calories": 220,
+    "servings": 12,
+    "ingredients": [
+      "flour",
+      "butter",
+      "sugar",
+      "eggs",
+      "chocolate",
+      "baking powder"
+    ],
+    "quantities": {
+      "flour": {
+        "amount": 220,
+        "unit": "g"
+      },
+      "butter": {
+        "amount": 110,
+        "unit": "g"
+      },
+      "sugar": {
+        "amount": 100,
+        "unit": "g"
+      },
+      "eggs": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "chocolate": {
+        "amount": 100,
+        "unit": "g"
+      },
+      "baking powder": {
+        "amount": 1,
+        "unit": "tsp"
+      }
+    },
+    "steps": [
+      "Cream butter and sugar; beat in the egg.",
+      "Fold in flour, baking powder and chopped chocolate.",
+      "Scoop onto a tray and bake at 180°C for about 12 minutes."
+    ],
+    "tags": [
+      "vegetarian",
+      "sweet"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Fresh Chicken Wrap",
+    "image": "assets/images/recipes/fresh-chicken-wrap.jpg",
+    "category": "Lunch",
+    "time": 15,
+    "difficulty": "Easy",
+    "calories": 410,
+    "servings": 2,
+    "ingredients": [
+      "tortilla",
+      "chicken",
+      "lettuce",
+      "cucumber",
+      "yogurt",
+      "salt"
+    ],
+    "quantities": {
+      "tortilla": {
+        "amount": 2,
+        "unit": "pcs"
+      },
+      "chicken": {
+        "amount": 200,
+        "unit": "g"
+      },
+      "lettuce": {
+        "amount": 4,
+        "unit": "leaves"
+      },
+      "cucumber": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "yogurt": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "salt": {
+        "amount": 1,
+        "unit": "pinch"
+      }
+    },
+    "steps": [
+      "Cook and slice chicken if not already cooked.",
+      "Spread yogurt on tortillas and add lettuce, cucumber and chicken.",
+      "Roll tightly and slice in half."
+    ],
+    "tags": [
+      "high-protein",
+      "quick"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Avocado Egg Toast",
+    "image": "assets/images/recipes/avocado-egg-toast.jpg",
+    "category": "Breakfast",
+    "time": 10,
+    "difficulty": "Easy",
+    "calories": 340,
+    "servings": 1,
+    "ingredients": [
+      "bread",
+      "avocado",
+      "eggs",
+      "lemon",
+      "salt",
+      "pepper"
+    ],
+    "quantities": {
+      "bread": {
+        "amount": 2,
+        "unit": "slices"
+      },
+      "avocado": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "eggs": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "lemon": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "salt": {
+        "amount": 1,
+        "unit": "pinch"
+      },
+      "pepper": {
+        "amount": 1,
+        "unit": "pinch"
+      }
+    },
+    "steps": [
+      "Toast the bread and mash avocado with lemon and salt.",
+      "Cook the egg to your liking.",
+      "Spread avocado on toast and top with the egg."
+    ],
+    "tags": [
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Chickpea Tomato Curry",
+    "image": "assets/images/recipes/chickpea-tomato-curry.jpg",
+    "category": "Dinner",
+    "time": 25,
+    "difficulty": "Medium",
+    "calories": 390,
+    "servings": 3,
+    "ingredients": [
+      "chickpeas",
+      "tomato",
+      "onion",
+      "garlic",
+      "curry powder",
+      "oil",
+      "water"
+    ],
+    "quantities": {
+      "chickpeas": {
+        "amount": 400,
+        "unit": "g"
+      },
+      "tomato": {
+        "amount": 3,
+        "unit": "pcs"
+      },
+      "onion": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "garlic": {
+        "amount": 2,
+        "unit": "cloves"
+      },
+      "curry powder": {
+        "amount": 2,
+        "unit": "tsp"
+      },
+      "oil": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "water": {
+        "amount": 100,
+        "unit": "ml"
+      }
+    },
+    "steps": [
+      "Sauté onion and garlic until soft.",
+      "Add tomatoes, chickpeas, curry powder and water.",
+      "Simmer for 15 minutes until the sauce thickens."
+    ],
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Cinnamon Apple Toast",
+    "image": "assets/images/recipes/cinnamon-apple-toast.jpg",
+    "category": "Dessert",
+    "time": 12,
+    "difficulty": "Easy",
+    "calories": 260,
+    "servings": 2,
+    "ingredients": [
+      "apple",
+      "bread",
+      "butter",
+      "sugar",
+      "cinnamon"
+    ],
+    "quantities": {
+      "apple": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "bread": {
+        "amount": 4,
+        "unit": "slices"
+      },
+      "butter": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "sugar": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "cinnamon": {
+        "amount": 1,
+        "unit": "tsp"
+      }
+    },
+    "steps": [
+      "Slice apples thinly and sauté with butter and cinnamon.",
+      "Toast bread until golden.",
+      "Spoon warm apples onto toast and sprinkle with sugar."
+    ],
+    "tags": [
+      "vegetarian",
+      "quick",
+      "sweet"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Quick Veggie Fried Rice",
+    "image": "assets/images/recipes/quick-veggie-fried-rice.jpg",
+    "category": "Lunch",
+    "time": 15,
+    "difficulty": "Easy",
+    "calories": 360,
+    "servings": 2,
+    "ingredients": [
+      "rice",
+      "eggs",
+      "carrot",
+      "onion",
+      "peas",
+      "oil",
+      "soy sauce"
+    ],
+    "quantities": {
+      "rice": {
+        "amount": 200,
+        "unit": "g"
+      },
+      "eggs": {
+        "amount": 2,
+        "unit": "pcs"
+      },
+      "carrot": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "onion": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "peas": {
+        "amount": 80,
+        "unit": "g"
+      },
+      "oil": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "soy sauce": {
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    },
+    "steps": [
+      "Use cooled, previously cooked rice for the best texture.",
+      "Scramble eggs in a skillet and set aside.",
+      "Fry vegetables and rice, then mix in eggs and soy sauce."
+    ],
+    "tags": [
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Garlic Butter Noodles",
+    "image": "assets/images/recipes/garlic-butter-noodles.jpg",
+    "category": "Dinner",
+    "time": 15,
+    "difficulty": "Easy",
+    "calories": 430,
+    "servings": 2,
+    "ingredients": [
+      "noodles",
+      "garlic",
+      "butter",
+      "soy sauce",
+      "spring onion"
+    ],
+    "quantities": {
+      "noodles": {
+        "amount": 200,
+        "unit": "g"
+      },
+      "garlic": {
+        "amount": 3,
+        "unit": "cloves"
+      },
+      "butter": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "soy sauce": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "spring onion": {
+        "amount": 2,
+        "unit": "stalks"
+      }
+    },
+    "steps": [
+      "Boil noodles and reserve a little cooking water.",
+      "Gently brown garlic in butter and add soy sauce.",
+      "Toss in noodles, loosen with cooking water and top with spring onion."
+    ],
+    "tags": [
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Rainbow Rice Bowl",
+    "image": "assets/images/recipes/rainbow-rice-bowl.jpg",
+    "category": "Lunch",
+    "time": 20,
+    "difficulty": "Easy",
+    "calories": 380,
+    "servings": 2,
+    "ingredients": [
+      "rice",
+      "cucumber",
+      "carrot",
+      "avocado",
+      "chickpeas",
+      "lemon",
+      "oil"
+    ],
+    "quantities": {
+      "rice": {
+        "amount": 150,
+        "unit": "g"
+      },
+      "cucumber": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "carrot": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "avocado": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "chickpeas": {
+        "amount": 150,
+        "unit": "g"
+      },
+      "lemon": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "oil": {
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    },
+    "steps": [
+      "Cook rice until fluffy and let it cool slightly.",
+      "Cut vegetables into bite-size pieces.",
+      "Arrange over rice with chickpeas and dress with lemon and oil."
+    ],
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Melted Cheese Quesadilla",
+    "image": "assets/images/recipes/melted-cheese-quesadilla.jpg",
+    "category": "Snack",
+    "time": 12,
+    "difficulty": "Easy",
+    "calories": 390,
+    "servings": 2,
+    "ingredients": [
+      "tortilla",
+      "cheese",
+      "tomato",
+      "onion",
+      "butter"
+    ],
+    "quantities": {
+      "tortilla": {
+        "amount": 2,
+        "unit": "pcs"
+      },
+      "cheese": {
+        "amount": 120,
+        "unit": "g"
+      },
+      "tomato": {
+        "amount": 1,
+        "unit": "pc"
+      },
+      "onion": {
+        "amount": 0.5,
+        "unit": "pc"
+      },
+      "butter": {
+        "amount": 1,
+        "unit": "tsp"
+      }
+    },
+    "steps": [
+      "Scatter shredded cheese, diced tomato and onion over a tortilla.",
+      "Top with the second tortilla and toast in butter.",
+      "Flip carefully until both sides are golden and cheese is melted."
+    ],
+    "tags": [
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Warm Baked Apples",
+    "image": "assets/images/recipes/warm-baked-apples.jpg",
+    "category": "Dessert",
+    "time": 25,
+    "difficulty": "Easy",
+    "calories": 190,
+    "servings": 2,
+    "ingredients": [
+      "apple",
+      "cinnamon",
+      "sugar",
+      "butter"
+    ],
+    "quantities": {
+      "apple": {
+        "amount": 2,
+        "unit": "pcs"
+      },
+      "cinnamon": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "sugar": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "butter": {
+        "amount": 1,
+        "unit": "tsp"
+      }
+    },
+    "steps": [
+      "Core the apples and place them in a baking dish.",
+      "Fill with sugar, cinnamon and a little butter.",
+      "Bake at 180°C for 20 minutes until tender."
+    ],
+    "tags": [
+      "vegetarian",
+      "sweet"
+    ]
+  }
+]

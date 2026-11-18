@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Recipes from a Fridge helps you cook delicious food using the ingredients you already have." name="description"/>
+  <meta content="#faf8f5" name="theme-color"/>
+  <title>
+   Home | Recipes from a Fridge
+  </title>
+  <script>
+    let theme = localStorage.getItem("fridge-theme");
+
+    if (theme === '"dark"') {
+      theme = "dark";
+    } else {
+      theme = "light";
+    }
+
+    document.documentElement.setAttribute("data-theme", theme);
+  </script>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/animations.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to content
+  </a>
+  <header class="site-header">
+   <div class="container header-inner d-flex align-items-center justify-content-between">
+    <a aria-label="Recipes from a Fridge home" class="brand" href="index.html">
+     <span aria-hidden="true" class="brand-icon">
+      F
+     </span>
+     <span>
+      fridge
+      <span style="color:var(--accent)">
+       .
+      </span>
+      recipes
+     </span>
+    </a>
+    <nav aria-label="Main navigation" class="desktop-nav">
+     <a aria-current="page" href="index.html">
+      Home
+     </a>
+     <a href="recipes.html">
+      All recipes
+     </a>
+     <a href="about.html">
+      About &amp; contact
+     </a>
+    </nav>
+    <div class="header-actions d-flex align-items-center gap-2">
+     <button aria-label="Toggle color theme" class="icon-btn" id="theme-toggle" type="button">
+      Dark
+     </button>
+     <button aria-controls="mobile-nav" aria-expanded="false" aria-label="Toggle navigation" class="icon-btn menu-toggle" id="menu-toggle" type="button">
+      <span class="hamburger">
+      </span>
+     </button>
+    </div>
+   </div>
+   <nav aria-label="Mobile navigation" class="mobile-nav" id="mobile-nav" style="display:none">
+    <a aria-current="page" href="index.html">
+     Home
+    </a>
+    <a href="recipes.html">
+     All recipes
+    </a>
+    <a href="about.html">
+     About &amp; contact
+    </a>
+   </nav>
+  </header>
+  <main id="main">
+   <section class="hero">
+    <div class="container hero-grid row align-items-center g-4 g-lg-5">
+     <div class="reveal col-12 col-lg-6">
+      <p class="eyebrow">
+       Recipe finder
+      </p>
+      <h1>
+       Find recipes
+       <span>
+        with your ingredients.
+       </span>
+      </h1>
+      <p class="hero-text">
+       Select ingredients you have and see which recipes you can make.
+      </p>
+      <a class="button" href="#ingredient-picker">
+       Choose ingredients
+       <span aria-hidden="true">
+       </span>
+      </a>
+     </div>
+     <div class="hero-visual reveal reveal--fade col-12 col-lg-6">
+      <img alt="Fresh colorful food prepared in a bright kitchen" fetchpriority="high" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="ingredient-picker">
+    <div class="container">
+     <div class="section-header reveal">
+      <div>
+       <p class="eyebrow">
+        Ingredients
+       </p>
+       <h2>
+        What's in your fridge?
+       </h2>
+       <p>
+        Choose ingredients to see how closely each recipe matches. Salt, pepper, oil and water are always included.
+       </p>
+      </div>
+     </div>
+     <div class="picker-panel reveal">
+      <div class="picker-top">
+       <label for="ingredient-input">
+        <strong>
+         Your ingredients
+        </strong>
+       </label>
+       <button class="button button-outline button-small" id="clear-ingredients" type="button">
+        Clear all
+       </button>
+      </div>
+      <div class="ingredient-input-wrap">
+       <input aria-controls="ingredient-suggestions" aria-label="Add ingredient" autocomplete="off" class="field form-control" id="ingredient-input" placeholder="Start typing: eggs, milk, cheese..." type="text"/>
+       <ul aria-label="Ingredient suggestions" class="suggestions hidden" id="ingredient-suggestions">
+       </ul>
+      </div>
+      <p class="muted" style="font-size:.84rem;margin-bottom:10px">
+       Popular ingredients
+      </p>
+      <div class="chip-row" id="popular-ingredients">
+      </div>
+      <div aria-live="polite" class="selected-tags" id="selected-ingredients">
+      </div>
+      <div class="picker-actions">
+       <button class="button" id="find-recipes" type="button">
+        Find recipes
+       </button>
+       <button class="button button-outline" id="surprise-me" type="button">
+        Random recipe
+       </button>
+      </div>
+     </div>
+     <div aria-live="polite" class="results-panel hidden" id="home-results">
+      <div class="section-header">
+       <div>
+        <p class="eyebrow">
+         Search results
+        </p>
+        <h2>
+         Matching recipes
+        </h2>
+        <p id="home-result-count">
+        </p>
+       </div>
+      </div>
+      <div class="recipe-grid row g-4" id="home-recipe-grid">
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section" style="background:var(--surface-alt)">
+    <div class="container">
+     <div class="section-header reveal">
+      <div>
+       <p class="eyebrow">
+        Recipes
+       </p>
+       <h2>
+        Popular recipes
+       </h2>
+       <p>
+        Select a recipe to see the ingredients and cooking steps.
+       </p>
+      </div>
+      <a class="button button-outline" href="recipes.html">
+       View all recipes
+      </a>
+     </div>
+     <div aria-label="Featured recipe carousel" class="featured-carousel" id="featured-carousel" tabindex="0">
+      <div class="carousel-track" id="carousel-track">
+      </div>
+      <div class="carousel-controls">
+       <div aria-label="Choose carousel position" class="carousel-dots" id="carousel-dots">
+       </div>
+       <div class="carousel-arrows">
+        <button aria-label="Previous featured recipes" class="icon-btn" id="carousel-prev" type="button">
+         &larr;
+        </button>
+        <button aria-label="Next featured recipes" class="icon-btn" id="carousel-next" type="button">
+        </button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <div class="container footer-inner">
+    <span>
+     &copy;
+     <span id="year">
+     </span>
+     Recipes from a Fridge
+    </span>
+    <a href="about.html">
+     Contact
+    </a>
+   </div>
+  </footer>
+  <button aria-label="Back to top" class="icon-btn back-to-top" id="back-to-top" type="button">
+   &uarr;
+  </button>
+  <div aria-atomic="false" aria-live="polite" class="toast-region" id="toast-region">
+  </div>
+  <div aria-hidden="true" class="modal-root" id="recipe-modal" role="presentation">
+   <section aria-labelledby="modal-title" aria-modal="true" class="modal-dialog" role="dialog" tabindex="-1">
+    <button aria-label="Close recipe" class="icon-btn modal-close" id="modal-close" type="button">
+     &times;
+    </button>
+    <img alt="Recipe photograph" class="modal-image" id="modal-image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="/>
+    <div class="modal-content">
+     <h2 id="modal-title">
+     </h2>
+     <div class="modal-meta">
+      <span id="modal-time">
+      </span>
+      <span id="modal-difficulty">
+      </span>
+      <span id="modal-calories">
+      </span>
+     </div>
+     <div class="modal-actions">
+      <span style="font-weight:700">
+       Servings
+      </span>
+      <div class="servings-control">
+       <button aria-label="Decrease servings" class="icon-btn" id="servings-decrease" type="button">
+        &minus;
+       </button>
+       <strong aria-live="polite" id="servings-count">
+       </strong>
+       <button aria-label="Increase servings" class="icon-btn" id="servings-increase" type="button">
+        +
+       </button>
+      </div>
+      <button class="button button-outline button-small" id="copy-shopping-list" type="button">
+       Copy shopping list
+      </button>
+     </div>
+     <div class="modal-cols row g-4">
+      <div class="col-12 col-md-6">
+       <h3>
+        Ingredients
+       </h3>
+       <ul class="ingredient-checklist" id="modal-ingredients">
+       </ul>
+      </div>
+      <div class="col-12 col-md-6">
+       <h3>
+        Instructions
+       </h3>
+       <ol class="steps-list" id="modal-steps">
+       </ol>
+      </div>
+     </div>
+    </div>
+   </section>
+  </div>
+  <script src="js/jquery.min.js">
+  </script>
+  <script defer="" src="js/main.js">
+  </script>
+  <script defer="" src="js/animations.js">
+  </script>
+  <script defer="" src="js/modal.js">
+  </script>
+  <script defer="" src="js/carousel.js">
+  </script>
+  <script defer="" src="js/recipes.js">
+  </script>
+ </body>
+</html>
